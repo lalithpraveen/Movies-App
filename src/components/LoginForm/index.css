@@ -1,0 +1,266 @@
+.login-form-container {
+  background-image: url('https://res.cloudinary.com/strawhat/image/upload/v1626523500/netfilx_1_wbbqk7.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .login-form-container {
+    background: #131313;
+
+    height: 100vh;
+  }
+}
+
+.form-container {
+  height: 440px;
+  width: 456px;
+  opacity: 0.8;
+  border-radius: 8px;
+  background: #0c0b10;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .form-container {
+    height: 100vh;
+    width: 100vw;
+    background: #131313;
+  }
+}
+
+.sign-in {
+  height: 40px;
+  width: 155px;
+  margin-top: 64px;
+  margin-left: 179px;
+  color: #ffffff;
+  font-family: HK Grotesk;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .sign-in {
+    margin: 134px auto 10px 32px;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .input-container {
+    margin-top: 20px;
+  }
+}
+
+.input-label {
+  height: 16px;
+  width: 65px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .input-label {
+    margin-left: 32px;
+  }
+}
+
+.label-username {
+  margin: 0;
+  margin-left: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .label-username {
+    margin-left: 32px;
+  }
+}
+
+.username-input-field,
+.password-input-field {
+  height: 40px;
+  width: 360px;
+  margin-top: 8px;
+  margin-left: 48px;
+  border-radius: 2px;
+  background: #333333;
+}
+
+@media screen and (max-width: 768px) {
+  .username-input-field,
+  .password-input-field {
+    margin-left: 32px;
+    height: 40px;
+    width: 296px;
+  }
+}
+
+.login-btn {
+  height: 40px;
+  width: 84px;
+  background: #e50914;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 8px, 20px, 8px, 20px;
+  margin-top: 48px;
+  margin-left: 186px;
+  border: 0;
+  font-family: HK Grotesk;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .login-btn {
+    height: 40px;
+    width: 296px;
+    left: 32px;
+    top: 366px;
+    border-radius: 4px;
+    padding: 8px, 20px, 8px, 20px;
+    margin: 0;
+    margin-left: 32px;
+    margin-top: 32px;
+  }
+}
+
+.movie-logo {
+  position: absolute;
+  top: 48px;
+  left: 165px;
+  width: 185px;
+  height: 52px;
+}
+
+@media screen and (max-width: 768px) {
+  .movie-logo {
+    top: 32px;
+    left: 32px;
+    width: 100px;
+    height: 27px;
+    background: #ffffff;
+    padding-left: 20px;
+  }
+}
+
+.m-icon {
+  height: 52px;
+  width: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .m-icon {
+    height: 27px;
+    width: 20px;
+  }
+}
+
+.o-icon {
+  height: 49px;
+  width: 28px;
+}
+
+@media screen and (max-width: 768px) {
+  .o-icon {
+    height: 25.4px;
+    width: 14px;
+  }
+}
+
+.v-icon {
+  height: 48px;
+  width: 29px;
+}
+
+@media screen and (max-width: 768px) {
+  .v-icon {
+    height: 25px;
+    width: 16px;
+  }
+}
+
+.i-icon {
+  height: 48px;
+  width: 9px;
+}
+
+@media screen and (max-width: 768px) {
+  .i-icon {
+    height: 25px;
+    width: 5px;
+  }
+}
+
+.e-icon {
+  height: 49px;
+  width: 23px;
+}
+
+@media screen and (max-width: 768px) {
+  .e-icon {
+    height: 26px;
+    width: 13px;
+  }
+}
+
+.s-icon {
+  height: 52px;
+  width: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .s-icon {
+    height: 27px;
+    width: 14px;
+  }
+}
+
+.error-message {
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e50914;
+  height: 18px;
+  width: 239px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .error-message {
+    height: 16px;
+    width: 255px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}

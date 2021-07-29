@@ -1,0 +1,60 @@
+.popular-movies-container {
+  background-color: #131313;
+  min-height: 100vh;
+  padding-bottom: 25px;
+}
+
+.pop-movies-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 6.438rem;
+  /* padding is same as height of navbar */
+}
+
+.pop-movie-image {
+  height: 170px;
+  width: 255px;
+  border-radius: 8px;
+  padding-right: 30px;
+  padding-bottom: 24px;
+}
+
+/* Pagination styles */
+
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination-button {
+  color: #ffffff;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 3px;
+  border: 0.6px solid #ffffff;
+  background-color: transparent;
+}
+
+.pagination-icon {
+  height: 10px;
+  width: 20px;
+  padding-right: 10px;
+}
+
+.page-number {
+  height: 27px;
+  width: 57px;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+}

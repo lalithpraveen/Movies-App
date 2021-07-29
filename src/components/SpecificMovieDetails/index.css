@@ -1,0 +1,133 @@
+.sp-movie-container {
+  background-color: #131313;
+  min-height: 100vh;
+}
+
+.sp-movie-details-container {
+  width: 100vw;
+  padding-left: 168px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 30vh;
+  margin: 0px;
+  flex-wrap: wrap;
+}
+
+.sp-movie-title {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.sp-movie-description {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  width: 60vw;
+}
+
+.play-btn {
+  padding: 12px 24px;
+  background: #ffffff;
+  border-radius: 4px;
+  height: 48px;
+  width: 77px;
+  border: 0px;
+}
+
+.sp-movie-details-card {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 165px;
+  padding-right: 30px;
+  background-color: black;
+  padding-bottom: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .sp-movie-details-container {
+    padding-top: 5vh;
+    padding-left: 32px;
+  }
+
+  .sp-movie-title {
+    font-size: 25px;
+  }
+
+  .sp-movie-description {
+    font-size: 14px;
+    width: 80vw;
+  }
+
+  .sp-movie-details-card {
+    padding-left: 32px;
+    flex-wrap: wrap;
+  }
+
+  .play-btn {
+    height: 40px;
+    width: 74px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    padding: 12px, 24px, 12px, 24px;
+  }
+}
+
+.each-category {
+  display: flex;
+  flex-direction: column;
+}
+
+.sp-category-name {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #64748b;
+}
+
+.category-list-elements {
+  padding: 0px;
+  margin: 0px;
+}
+
+.each-element {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #ffffff;
+  list-style-type: none;
+  line-height: 20px;
+  margin: 0px;
+}
+
+.sp-sub-details {
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.sp-similar-movie-img {
+  width: 245px;
+  height: 160px;
+  border-radius: 8px;
+  margin: 10px;
+}
+.similar-movies-container {
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px;
+  background-color: black;
+  padding-bottom: 120px;
+  padding-right: 15px;
+}

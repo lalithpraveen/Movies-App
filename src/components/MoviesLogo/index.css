@@ -1,0 +1,90 @@
+.movielogo {
+  position: absolute;
+  top: 32px;
+  left: 10%;
+  width: 385px;
+  height: 52px;
+}
+
+@media screen and (max-width: 768px) {
+  .movielogo {
+    top: 32px;
+    left: 32px;
+    width: 100px;
+    height: 27px;
+
+    padding-left: 10px;
+  }
+}
+
+.m-icon {
+  height: 52px;
+  width: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .m-icon {
+    height: 27px;
+    width: 20px;
+  }
+}
+
+.o-icon {
+  height: 49px;
+  width: 28px;
+}
+
+@media screen and (max-width: 768px) {
+  .o-icon {
+    height: 25.4px;
+    width: 14px;
+  }
+}
+
+.v-icon {
+  height: 48px;
+  width: 29px;
+}
+
+@media screen and (max-width: 768px) {
+  .v-icon {
+    height: 25px;
+    width: 16px;
+  }
+}
+
+.i-icon {
+  height: 48px;
+  width: 9px;
+}
+
+@media screen and (max-width: 768px) {
+  .i-icon {
+    height: 25px;
+    width: 5px;
+  }
+}
+
+.e-icon {
+  height: 49px;
+  width: 23px;
+}
+
+@media screen and (max-width: 768px) {
+  .e-icon {
+    height: 26px;
+    width: 13px;
+  }
+}
+
+.s-icon {
+  height: 52px;
+  width: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .s-icon {
+    height: 27px;
+    width: 14px;
+  }
+}

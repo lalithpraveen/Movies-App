@@ -1,0 +1,173 @@
+.nav-header {
+  height: 6.438rem;
+  width: 100%;
+  /* background: #131313; */
+  position: fixed;
+  z-index: 1;
+}
+
+.nav-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-contents {
+  list-style-type: none;
+  display: flex;
+  color: #ffffff;
+  position: relative;
+  left: 22%;
+  top: 2.375rem;
+  font-family: HK Grotesk;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-contents {
+    display: none;
+  }
+}
+
+.home-element {
+  margin-right: 1.5rem;
+}
+
+.search-card {
+  list-style-type: none;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .search-card {
+    display: none;
+  }
+}
+
+.search-icon {
+  height: 24px;
+  width: 24px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .search-icon {
+    position: absolute;
+    left: 81%;
+    top: 1px;
+  }
+}
+
+.nav-input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  position: absolute;
+  top: 40px;
+  right: 17%;
+  border: 2px solid #ffffff;
+  padding-top: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-input-container {
+    top: 32px;
+    left: 65%;
+    width: 20%;
+  }
+}
+
+.nav-input-box {
+  background-color: transparent;
+  border: 0px;
+  margin-right: 8px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  outline: 0px;
+  padding-left: 10px;
+}
+
+.initial-icon {
+  position: absolute;
+  top: 58px;
+  right: 17%;
+}
+
+.profile-card {
+  height: 43px;
+  width: 43px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  position: absolute;
+  right: 12%;
+  top: 40px;
+}
+
+.profile-icon {
+  margin-left: 6px;
+  margin-top: 6px;
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (min-width: 769px) {
+  .mobile-view-nav {
+    display: none;
+  }
+}
+.playlist-search-icon {
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+  position: absolute;
+  top: 40px;
+  left: 90%;
+}
+
+.mobile-search-icon {
+  width: 25px;
+  height: 25px;
+  color: #ffffff;
+  position: absolute;
+  top: 40px;
+  left: 80%;
+}
+
+.hamburger-menu-card {
+  display: flex;
+  justify-content: space-around;
+  /* background: #131313; */
+  color: #ffffff;
+  margin-top: 6.437rem;
+  width: 100vw;
+}
+
+.hamburger-heading {
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.35555556416511536px;
+  text-align: left;
+}
+
+.header-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header-link:hover {
+  color: #e50914;
+}
+
+.profile-header-link {
+  text-decoration: none;
+  color: #131313;
+}

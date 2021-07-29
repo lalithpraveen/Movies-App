@@ -1,0 +1,185 @@
+.account-page-container {
+}
+
+.account-navbar-background {
+  background-color: #131313;
+  height: 6.438rem;
+}
+/* testing route  */
+.account-heading {
+  color: #131313;
+
+  width: 135px;
+
+  margin: 0px;
+  padding-top: 64px;
+  padding-left: 10%;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.horizontal-line {
+  height: 1px;
+  width: 1110px;
+  border-radius: 10px;
+  background: #cbd5e1;
+  margin: 0px;
+  margin-left: 10%;
+  margin-top: 24px;
+  padding: 1px;
+}
+
+.password-text,
+.membership-title {
+  color: #64748b;
+}
+
+.membership-title {
+  height: 31px;
+
+  font-family: 'HK Grotesk';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-right: 24px;
+}
+
+.membership-card {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10%;
+}
+
+.membership-email {
+  height: 31px;
+  width: 259px;
+  font-family: 'HK Grotesk';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 18px;
+}
+
+.member-password {
+  height: 31px;
+  width: 279px;
+
+  font-family: 'HK Grotesk';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.premium {
+  width: 120px;
+  font-family: 'HK Grotesk';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-right: 24px;
+}
+
+.premium-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.membership-type {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.logout {
+  margin-top: 72px;
+  margin-left: 50%;
+  background: #e50914;
+  height: 40px;
+  width: 91px;
+  left: 675px;
+  top: 523px;
+  border-radius: 4px;
+  padding: 8px, 20px, 8px, 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .account-heading {
+    padding-top: 32px;
+    width: 90px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .horizontal-line {
+    height: 2px;
+    width: 60vw;
+    margin-top: 8px;
+  }
+
+  .membership-title {
+    height: 23px;
+    width: 106px;
+    font-family: 'HK Grotesk';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-right: 17px;
+  }
+
+  .membership-email {
+    height: 21px;
+    width: 172px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .member-password {
+    font-family: 'HK Grotesk';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    height: 21px;
+    width: 182px;
+  }
+
+  .logout {
+    margin-top: 48px;
+    height: 40px;
+    width: 91px;
+    border-radius: 4px;
+    padding: 8px, 20px, 8px, 20px;
+  }
+}

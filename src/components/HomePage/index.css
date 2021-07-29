@@ -1,0 +1,99 @@
+.Home-page-container {
+  background-color: black;
+  width: 100vw;
+  min-height: 100vh;
+}
+.home-page-top-section {
+  display: flex;
+
+  align-items: flex-end;
+}
+
+.movie-details-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 164px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .movie-details-container {
+    padding-left: 48px;
+  }
+}
+
+.movie-title {
+  color: #ffffff;
+  height: 32px;
+  width: 600px;
+  font-family: HK Grotesk;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .movie-title {
+    font-size: 24px;
+    margin-top: 150px;
+  }
+}
+
+.movie-description {
+  width: 600px;
+  color: #ffffff;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .movie-description {
+    font-size: 15px;
+    width: 300px;
+    margin-top: 10px;
+  }
+}
+
+.home-play-btn {
+  //styleName: Action / Button / Medium;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 48px;
+  width: 77px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+  padding: 12px, 24px, 12px, 24px;
+  background: #ffffff;
+  text-align: center;
+  border: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .home-play-btn {
+    height: 32px;
+    width: 60px;
+  }
+}
+
+.loader-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}

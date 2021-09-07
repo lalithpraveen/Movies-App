@@ -1,16 +1,23 @@
-import {FaGoogle, FaTwitter, FaInstagram, FaYoutube} from 'react-icons/fa'
+import {FaGoogle, FaGithub, FaLinkedinIn} from 'react-icons/fa'
 
 import './index.css'
 
 const Footer = () => (
   <div className="footer-container">
     <div className="icons-card">
-      <FaGoogle className="footer-icon" />
-      <FaTwitter className="footer-icon" />
-      <FaInstagram className="footer-icon" />
-      <FaYoutube className="footer-icon" />
+      <a href="https://www.linkedin.com/in/lalithpraveen-kumar-0b2804117/">
+        <FaGoogle className="footer-icon" />
+      </a>
+      <a href="https://github.com/lalithpraveen">
+        <FaGithub className="footer-icon" />
+      </a>
+
+      <a href="https://www.linkedin.com/in/lalithpraveen-kumar-0b2804117/">
+        <FaLinkedinIn className="footer-icon" />
+      </a>
     </div>
-    <p className="footer-contact">Contact Us</p>
+    <p className="footer-contact">Created By </p>
+    <p className="footer-contact">Praveen Kumar Yarlagadda </p>
   </div>
 )
 

@@ -48,6 +48,10 @@ class SpecificMovieDetails extends Component {
     const fetchedData = await response.json()
     this.setState({similarMovies: fetchedData.results, isLoading: false})
   }
+  
+  onClickSimilarMovie = () => {
+    this.getMovieDetails()
+  }
 
   renderSimilarMovies = () => {
     const {similarMovies} = this.state
@@ -57,7 +61,7 @@ class SpecificMovieDetails extends Component {
           const movieImgUrl = `https://image.tmdb.org/t/p/original/${eachMovie.poster_path}`
           const moviePath = `/movie/${eachMovie.id}`
           return (
-            <Link to={moviePath}>
+            <Link to={moviePath} onClick={this.onClickSimilarMovie}>
               <img
                 className="sp-similar-movie-img"
                 alt={eachMovie.title}

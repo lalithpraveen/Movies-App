@@ -50,8 +50,10 @@ class SpecificMovieDetails extends Component {
   }
   
   onClickSimilarMovie = () => {
-    this.setState({isLoading: true})
-    this.getMovieDetails()
+    this.setState(
+      {isLoading: true},
+      this.getMovieDetails,
+    )
     this.getSimilarMovies()
   }
 

@@ -3,6 +3,12 @@
   min-height: 100vh;
 }
 
+.sp-movie-details-loader {
+  background-color: #131313;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
 .sp-movie-details-container {
   width: 100vw;
   padding-left: 168px;

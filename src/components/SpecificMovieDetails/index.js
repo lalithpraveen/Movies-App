@@ -50,7 +50,9 @@ class SpecificMovieDetails extends Component {
   }
   
   onClickSimilarMovie = () => {
+    this.setState({isLoading: true})
     this.getMovieDetails()
+    this.getSimilarMovies()
   }
 
   renderSimilarMovies = () => {
@@ -145,8 +147,10 @@ class SpecificMovieDetails extends Component {
     return (
       <>
         {isLoading ? (
-          <div testid="loader" className="loader-container">
-            <Loader type="TailSpin" color="red" height={50} width={100} />
+          <div className="sp-movie-details-loader">
+            <div testid="loader" className="loader-container">
+              <Loader type="TailSpin" color="red" height={50} width={100} />
+            </div>
           </div>
         ) : (
           <>

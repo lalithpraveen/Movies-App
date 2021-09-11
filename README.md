@@ -2,7 +2,7 @@
 
 **For sign up**  https://www.themoviedb.org/signup
 
-In this project let's built a **Movies App** by applying the concepts I have learned till now. 
+In this project I built a **Movies App** by applying the concepts I have learned till now. 
 
 I demonstrated my skills by creating an app that will fetch data from an internal server using a class component, displayed that data, using **component lifecycle** methods, **routing** concepts, **authentication**, and **authorization**, and added responsiveness to the website.
 

@@ -1,6 +1,6 @@
-**Live link https://strawhatmovies.ccbp.tech/ 
+**Live** link https://strawhatmovies.ccbp.tech/ 
 
-**For sign up  https://www.themoviedb.org/signup
+**For sign up**  https://www.themoviedb.org/signup
 
 In this project let's built a **Movies App** by applying the concepts I have learned till now. 
 
